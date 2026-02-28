@@ -18,7 +18,7 @@ The study highlights how different feature representation techniques (sparse vs 
 
 ### 1. Preprocessing pipeline
 We implemented a robust cleaning pipeline to handle social media noise:
-* **Hastag decomposition:** using 'wordninja' to split tags like "#BuildBackBetter" into "Built Back Better".
+* **Hashtag decomposition:** using 'wordninja' to split tags like "#BuildBackBetter" into "Built Back Better".
 * **Cleaning:** removal of emojis, URLs, mentions and non-ASCII characters.
 * **Tokenization and padding:** standardized input length (31 tokens) for neural networks.
 
