@@ -44,7 +44,7 @@ The evaluation was performed on a held-out test using accuracy and F1-score.
 <img width="1163" height="572" alt="image" src="https://github.com/user-attachments/assets/c0b2a28b-435f-48cd-b67f-b52ec3c29088" />
 
 
-**Key insights:** while the deep learning model with custom FastText embeddings performed competitively (0.82), the simpler logistic regression achieved the best results (0.84). This suggests that specific keywords (caètured well by TF-IDF) are highly discriminative markers for political affiliation in this dataset. 
+**Key insights:** while the deep learning model with custom FastText embeddings performed competitively (0.82), the simpler logistic regression achieved the best results (0.84). This suggests that specific keywords (captured well by TF-IDF) are highly discriminative markers for political affiliation in this dataset. 
 
 ## What I learned:
 * How to train custom word embeddings (FastText) to capture sematnic relationsgips in niche domains (political slang).
