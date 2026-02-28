@@ -1,6 +1,6 @@
 # CAPITOL: Classifying American Political Ideologies Through Online Language
 
-***Project Status:** Completed (academic project 2025-2025)*
+***Project Status:** Completed (academic project 2024-2025)*
 
 ## Project overview
 The goal of **CAPITOL** is to classify U.S. political tweets based on their content, distinguishing between *Democratic* and *Republican* affiliations. 
