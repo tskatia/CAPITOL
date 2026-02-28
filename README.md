@@ -58,6 +58,7 @@ In summary, our project involved several key steps, preprocessing political twee
 ## Final Conclusion
 
 Although the performance varied across models, all approaches demonstrated the ability to identify political affiliation in text with reasonable accuracy. Logistic Regression with TF-IDF stood out for its simplicity and effectiveness. Meanwhile, LSTM models with embeddings offered strong performance while also capturing sequential patterns in language. The project provided us with practical experience in implementing and evaluating a real-world NLP task using multiple modeling techniques.
+
 *For a detailed analysis, please refer to the full project report.*
 
 ## Contributing
