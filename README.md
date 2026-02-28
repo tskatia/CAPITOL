@@ -46,10 +46,22 @@ The evaluation was performed on a held-out test using accuracy and F1-score.
 
 **Key insights:** while the deep learning model with custom FastText embeddings performed competitively (0.82), the simpler logistic regression achieved the best results (0.84). This suggests that specific keywords (captured well by TF-IDF) are highly discriminative markers for political affiliation in this dataset. 
 
-## What I learned:
-* How to train custom word embeddings (FastText) to capture sematnic relationsgips in niche domains (political slang).
-* The trade-off betweem model complexity and performance: complex LSTMs are not always better than linear models if the features are distinct enough.
-* Handling overfitting in neural networks using dropout and validation monitoring.
+
+## Issues Encountered
+
+Throughout the project, we faced limited computational resources on Deepnote, which led us to reduce the dataset to 30,000 samples to ensure manageable training times. Library compatibility issues also slowed down model experimentation. Additionally, downloading large pre-trained models like GloVe increased setup time and disk usage within the constrained cloud environment.
+
+## Project Recap
+
+In summary, our project involved several key steps, preprocessing political tweet data, applying various vectorization and embedding techniques, implementing both classical and deep learning models, and evaluating their performance. This hands-on experience enhanced our understanding of NLP workflows and highlighted how different textual representations and algorithms influence classification outcomes.
+
+## Final Conclusion
+
+Although the performance varied across models, all approaches demonstrated the ability to identify political affiliation in text with reasonable accuracy. Logistic Regression with TF-IDF stood out for its simplicity and effectiveness. Meanwhile, LSTM models with embeddings offered strong performance while also capturing sequential patterns in language. The project provided us with practical experience in implementing and evaluating a real-world NLP task using multiple modeling techniques.
+
+## Contributing
+
+If you have suggestions for improvements, new experiments, or alternative embeddings to try, feel free to open an issue or submit a pull request. Let’s continue improving this project together!
 
 
 ## Credits
