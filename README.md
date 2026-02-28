@@ -67,4 +67,10 @@ If you have suggestions for improvements, new experiments, or alternative embedd
 
 
 ## Credits
-Developed by ***Tsuhuy Ecaterina*** and ***Brusati Lorenzo*** for the "Text Mining and Natural Language Processing" course. 
+* Developed by ***Tsuhuy Ecaterina*** and ***Brusati Lorenzo*** for the "Text Mining and Natural Language Processing" course.
+* The dataset used for this project was provided by Jacobvs (https://huggingface.co/datasets/Jacobvs/PoliticalTweets) bia HuggingFace. 
+* Pre-trained Embeddings:
+  * GloVe: we utilized the 'glove.6B.100d' pre-trained vectors provided by Stanford NLP (https://nlp.stanford.edu/projects/glove/).
+  * FastText: the FastText model architecture used for custom training is develop by Facebook AI research (FAIR) (https://fasttext.cc/).
+ 
+
